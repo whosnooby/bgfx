@@ -9,3 +9,12 @@
 .svn
 .vscode
 tags
+
+Makefile
+*.make
+
+*.vcxproj*
+*.sln
+
+*.build
+*.xcodeproj
