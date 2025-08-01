@@ -59,7 +59,7 @@ project 'bgfx'
     path.join(BIMG_DIR, 'include'),
   
     '3rdparty',
-    '3rdparty/dxsdk/include',
+    '3rdparty/directx-headers/include',
     '3rdparty/khronos',
     'include',
   }
