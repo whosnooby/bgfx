@@ -8,6 +8,9 @@ printf('BGFX_DIR: %s', BGFX_DIR)
 ----
 ---------------------------------
 
+BGFX_BUILD_DIR = path.getabsolute(BGFX_BUILD_DIR)
+BGFX_OBJ_DIR = path.getabsolute(BGFX_OBJ_DIR)
+
 if BX_DIR == nil then
     error('BX_DIR not defined')
 end
